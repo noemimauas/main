@@ -3,7 +3,7 @@ const {
     autenticar,
     registrar,
     verificarToken,
-} = require('./../controllers/AutenticacionController.js');
+} = require('./../controllers/controller.authentication');
 
 autenticacionRouter.post('/autenticar', autenticar);
 
